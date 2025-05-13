@@ -1,0 +1,200 @@
+\documentclass[12pt,letterpaper]{article}
+\usepackage{geometry}
+\geometry{margin=1in}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{xcolor}
+\usepackage{fancyhdr}
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,
+    urlcolor=blue,
+}
+
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0pt}
+\fancyhead[C]{HE\textsuperscript{2}AT CENTER}
+\fancyfoot[C]{\thepage}
+
+\titleformat{\section}
+  {\normalfont\Large\bfseries}{\thesection}{1em}{}
+\titleformat{\subsection}
+  {\normalfont\large\bfseries}{\thesubsection}{1em}{}
+
+\setlist{noitemsep}
+
+\title{}
+\author{}
+\date{}
+
+\begin{document}
+
+\begin{center}
+\textbf{\LARGE FREQUENTLY ASKED QUESTIONS}\\[0.3cm]
+\textbf{\large HE\textsuperscript{2}AT CENTER CLOUD MIGRATION \& EXTENDED DATA USE}
+\end{center}
+
+\subsection*{1. Why is the HE\textsuperscript{2}AT Center requesting this amendment?}
+
+This amendment addresses three critical needs:
+
+\begin{enumerate}
+\item \textbf{Cloud Migration}: NIH funding requirements necessitate moving data from on-premises servers to the Azure cloud platform, providing enhanced security, improved access controls, and better disaster recovery capabilities.
+
+\item \textbf{External Researcher Access}: To maximize the scientific value of the data, we need clear authorization to share appropriately de-identified data with qualified researchers beyond the original HE\textsuperscript{2}AT Center Consortium, subject to strict oversight.
+
+\item \textbf{Long-Term Data Preservation}: Research data has enduring value beyond the timeframe of a single project. This amendment establishes a framework for responsible, secure long-term data preservation and use.
+\end{enumerate}
+
+\subsection*{2. Will I still own my data after signing this amendment?}
+
+Yes. The amendment explicitly states that data ownership remains with you as the original data provider. The amendment grants a license to use the data in specific ways, but does not transfer ownership. You retain all rights to distribute your original data to other third parties.
+
+\subsection*{3. What will happen to my data after the HE\textsuperscript{2}AT Center Project ends?}
+
+The data will be handled according to a tiered approach:
+
+\begin{itemize}
+\item \textbf{Level 0 (Original Study Data)}: Retained for 5 years after project conclusion for verification purposes, then deleted unless you explicitly agree to a longer retention period.
+
+\item \textbf{Level 1 (Consortium Shared Data)}: Retained for 10 years after project conclusion for use by former HE\textsuperscript{2}AT Consortium members.
+
+\item \textbf{Level 2 (De-identified Data)}: Retained indefinitely as a scientific resource, accessible to approved external researchers through a governed process.
+
+\item \textbf{Level 3 (Inferential Data)}: Retained indefinitely as an open scientific resource.
+\end{itemize}
+
+\subsection*{4. Who will have access to my data after it's migrated to the cloud?}
+
+Access is strictly controlled according to data levels:
+
+\begin{itemize}
+\item \textbf{Level 0 (Original Study Data)}: Only the Core Data Team
+\item \textbf{Level 1 (Consortium Shared Data)}: Only authorized HE\textsuperscript{2}AT Consortium partners
+\item \textbf{Level 2 (De-identified Data)}: External researchers with DAC approval
+\item \textbf{Level 3 (Inferential Data)}: Open access (highly aggregated, non-identifiable)
+\end{itemize}
+
+\subsection*{5. What security measures will protect my data in the cloud?}
+
+The Azure cloud platform implements enterprise-grade security including:
+\begin{itemize}
+\item AES-256 encryption for all data at rest
+\item TLS encryption for all data in transit
+\item Multi-factor authentication and role-based access control
+\item Azure Key Vault for secure key management
+\item Continuous monitoring and comprehensive audit logging
+\item Advanced threat detection and security analytics
+\end{itemize}
+
+\subsection*{6. How will external researchers gain access to data derived from my study?}
+
+External researchers must:
+\begin{enumerate}
+\item Submit a formal application to the Data Access Committee (DAC)
+\item Receive DAC approval based on scientific merit and ethical considerations
+\item Sign a legally binding Data Use Agreement with specific restrictions
+\item Access only Level 2 de-identified data, never the original study data
+\item Have their usage monitored and logged
+\end{enumerate}
+
+You will receive annual reports summarizing who has accessed data derived from your study.
+
+\subsection*{7. What safeguards prevent misuse of my data by external researchers?}
+
+Multiple protective layers are in place:
+\begin{itemize}
+\item Researchers only receive de-identified data (Level 2)
+\item Access is governed by a legally binding Data Use Agreement
+\item All access is logged and monitored
+\item Researchers must cite original data sources in publications
+\item The DAC can revoke access for any violations
+\item Geographic controls prevent unlawful cross-border data transfers
+\end{itemize}
+
+\subsection*{8. Who will govern the data after the HE\textsuperscript{2}AT Center Project ends?}
+
+The amendment provides for a "Successor Governance Entity" that will maintain:
+\begin{itemize}
+\item The Data Access Committee or equivalent oversight structure
+\item All security and privacy protections
+\item Regular compliance reviews for evolving laws and standards
+\item Sustainable funding for ongoing data management
+\end{itemize}
+
+\subsection*{9. Can I revoke access to my data in the future?}
+
+The amendment establishes perpetual authorizations for Levels 1-3 data, as continued access is essential for scientific reproducibility and follow-up research. However:
+
+\begin{itemize}
+\item Level 0 (Original Study Data) will be deleted after 5 years unless you explicitly approve longer retention
+\item You can contact the Data Access Committee with specific concerns about data use
+\item All uses must comply with the terms established in the amendment and original agreement
+\end{itemize}
+
+\subsection*{10. Does this amendment change how my data will be used for research?}
+
+The core research purposes remain consistent with the original agreement and the HE\textsuperscript{2}AT Center's mission. The amendment expands:
+
+\begin{enumerate}
+\item Where the data is stored (in the Azure cloud)
+\item Who may access appropriately de-identified versions (qualified external researchers)
+\item How long the de-identified data may be retained (indefinitely for Levels 2-3)
+\end{enumerate}
+
+All research must still be consistent with the scientific aims of understanding heat-health impacts in Africa.
+
+\subsection*{11. Will my organization be acknowledged in publications resulting from external researcher access?}
+
+Yes. All external researchers must commit to appropriate citation of both the HE\textsuperscript{2}AT Center and the original data sources in any publications. This requirement is embedded in their Data Use Agreement.
+
+\subsection*{12. What happens if there is a data breach after the data is moved to the cloud?}
+
+In the event of a security breach:
+\begin{itemize}
+\item You will be notified within 24 hours of discovery
+\item You will receive regular updates on the investigation and remediation
+\item This notification requirement continues as long as any level of your data is retained
+\item The Data Recipient will take immediate steps to address the breach
+\end{itemize}
+
+\subsection*{13. What if I have concerns about specific future uses of my data?}
+
+While the amendment authorizes broad scientific use of de-identified data, we value our relationship with all data providers. If you have specific concerns about how your data may be used:
+
+\begin{enumerate}
+\item Contact the Data Access Committee with your concerns
+\item The DAC can implement specific restrictions for your dataset
+\item You will receive reports on who has accessed data derived from your study
+\end{enumerate}
+
+\subsection*{14. Why is "perpetual" authorization necessary for Levels 2-3 data?}
+
+Perpetual authorization for de-identified data is essential for:
+\begin{itemize}
+\item Scientific reproducibility and verification of findings
+\item Enabling follow-up research and meta-analyses
+\item Maximizing the long-term value of data collected with public funds
+\item Allowing emerging analytical techniques to extract new insights
+\end{itemize}
+
+Remember that Level 2-3 data is thoroughly de-identified, with no direct identifiers and geographic jittering or aggregation to prevent re-identification.
+
+\subsection*{15. Who can I contact if I have additional questions?}
+
+\textbf{HE\textsuperscript{2}AT Center Data Steward:}\\
+[NAME]\\
+[EMAIL]\\
+[PHONE]
+
+\textbf{Legal Contact:}\\
+[NAME]\\
+[EMAIL]\\
+[PHONE]
+
+We're happy to schedule a call to discuss any aspects of this amendment in detail.
+
+\end{document}
