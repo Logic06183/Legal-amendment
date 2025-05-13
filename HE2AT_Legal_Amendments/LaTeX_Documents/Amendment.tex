@@ -1,0 +1,272 @@
+\documentclass[12pt,letterpaper]{article}
+\usepackage{geometry}
+\geometry{margin=1in}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{xcolor}
+\usepackage{titling}
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,
+    urlcolor=blue,
+}
+
+\titleformat{\section}
+  {\normalfont\Large\bfseries}{\thesection}{1em}{}
+\titleformat{\subsection}
+  {\normalfont\large\bfseries}{\thesubsection}{1em}{}
+
+\setlist{noitemsep}
+\setlength{\droptitle}{-60pt}
+
+\title{\textbf{AMENDMENT TO DATA TRANSFER AGREEMENT}}
+\author{}
+\date{}
+
+\begin{document}
+
+\maketitle
+
+This AMENDMENT (``Amendment'') is made and entered into as of \underline{\hspace{5cm}}, 2025 (``Amendment Effective Date'')
+
+\section*{BETWEEN:}
+
+\textbf{[PROVIDER LEGAL NAME]} with its principal place of business at [PROVIDER ADDRESS] (hereinafter referred to as the ``Data Provider'')
+
+\section*{AND:}
+
+\textbf{[WITS HEALTH CONSORTIUM (PTY) LTD / UNIVERSITY OF CAPE TOWN]} with its principal place of business at [RECIPIENT ADDRESS] (hereinafter referred to as the ``Data Recipient'')
+
+(collectively referred to as the ``Parties'' and individually as a ``Party'')
+
+\section*{RECITALS:}
+
+\textbf{WHEREAS}, the Parties entered into a Data Transfer Agreement dated [ORIGINAL AGREEMENT DATE] (the ``Agreement'') for the transfer and use of Original Study Data in connection with the HE²AT Center Project;
+
+\textbf{WHEREAS}, the Data Recipient requires migration of the data storage infrastructure from on-premises servers to a cloud-based platform to comply with NIH funding requirements and to enhance data security and accessibility;
+
+\textbf{WHEREAS}, the Parties recognize the scientific value of making appropriately de-identified data available to the broader scientific community under controlled conditions and the importance of ensuring long-term preservation and use of research data beyond the conclusion of the HE²AT Center Project;
+
+\textbf{WHEREAS}, the Parties wish to amend the Agreement to specifically authorize (1) the cloud migration of data, (2) access to appropriately de-identified data by researchers outside the HE²AT Center Consortium, and (3) the retention and continued use of the data after the conclusion of the HE²AT Center Project;
+
+\textbf{NOW, THEREFORE}, in consideration of the mutual covenants contained herein and for other good and valuable consideration, the receipt and sufficiency of which are hereby acknowledged, the Parties agree as follows:
+
+\section{AMENDMENTS TO THE AGREEMENT}
+
+\subsection{Additional Definitions}
+
+The following definitions shall be added to Section 1 (Definitions) of the Agreement:
+
+``\textbf{Azure Cloud Platform}'' means the Microsoft Azure cloud computing service that will serve as the HE²AT Center Primary Repository.
+
+``\textbf{Cloud Migration}'' means the process of transferring the Original Study Data and any derived data sets from the existing on-premises infrastructure to the Azure Cloud Platform.
+
+``\textbf{Data Access Committee or DAC}'' means the committee established by the HE²AT Center to review and approve data access requests from external researchers according to established criteria and protocols, which shall continue to function after the conclusion of the HE²AT Center Project.
+
+``\textbf{Data Access Levels}'' means the tiered access system implemented by the HE²AT Center consisting of:
+\begin{itemize}
+   \item Level 0: Original Study Data - Raw, unprocessed data with restricted access to Core Data Team only
+   \item Level 1: Consortium Shared Data - Processed data shared only among HE²AT Center Consortium partners
+   \item Level 2: RP1/RP2 De-identified Data - Retained by HE²AT Center for approved external researcher access
+   \item Level 3: Inferential Data - Aggregated and anonymized data available for open access
+\end{itemize}
+
+``\textbf{Extended Research Use}'' means the use of data derived from the Original Study Data by External Researchers for scientific research purposes that may extend beyond but remain consistent with the original aims of the HE²AT Center Project.
+
+``\textbf{External Researcher}'' means any qualified researcher who is not a member of the HE²AT Center Consortium but who has been approved by the Data Access Committee to access Level 2 data for specific research purposes.
+
+``\textbf{Geo-Distributed Storage Architecture}'' means the cloud architecture that enables data storage in specific geographic regions in compliance with applicable data protection laws.
+
+``\textbf{Post-Project Data Repository}'' means the secure data repository that will maintain and govern access to the data after the conclusion of the HE²AT Center Project.
+
+``\textbf{Post-Project Data Use}'' means the continued storage, access, and use of the data after the conclusion of the HE²AT Center Project in accordance with this Amendment.
+
+``\textbf{Successor Governance Entity}'' means any entity or institution that assumes responsibility for the governance, maintenance, and oversight of the Post-Project Data Repository after the conclusion of the HE²AT Center Project.
+
+\subsection{Amendment to Transfer and Use of Data Provisions}
+
+Section 2 of the Agreement titled ``TRANSFER AND USE OF DATA'' is hereby amended as follows:
+
+\begin{enumerate}
+\item Section 2.1 [WHC and UCT DTA versions] regarding the term of the Agreement is hereby amended to read:
+
+``This Agreement shall commence on the Commencement Date and shall remain in effect in perpetuity with respect to the Post-Project Data Use provisions set forth in Section 2.[Z] of this Amendment, unless terminated earlier in accordance with the provisions of this Agreement. The Data Provider specifically acknowledges and agrees that the Post-Project Data Use provisions shall survive the termination of the HE²AT Center Project.''
+
+\item Section 2.4 [WHC and UCT DTA versions] regarding Data Provider's ownership of Original Study Data is amended to read:
+
+``Data Provider retains ownership of the Original Study Data and retains all rights to distribute the Original Study Data to other third parties. The Data Provider hereby grants the Data Recipient a perpetual, irrevocable, worldwide, non-exclusive license to:
+\begin{enumerate}
+\item[(a)] store the Original Study Data in the Azure Cloud Platform as part of the HE²AT Center's Cloud Migration;
+\item[(b)] process and transform the Original Study Data to create derived data sets at Levels 1, 2, and 3;
+\item[(c)] retain the derived data sets for Post-Project Data Use as specifically authorized in this Amendment; and
+\item[(d)] grant access to Level 2 data to External Researchers in accordance with the procedures set forth in this Amendment.
+\end{enumerate}
+
+This expanded license does not transfer ownership of the Original Study Data, which remains with the Data Provider.''
+
+\item A new Section 2.5 [for WHC DTA version] / Section 2.5 [for UCT DTA version] is added as follows:
+
+``The Data Provider acknowledges and agrees that initially the Original Study Data shall be accessible only to the Core Data Team for purposes of pre-processing, harmonisation and integration to produce Consortium Shared Data as set out in the HE²AT Center Data Management Plan. Following the Cloud Migration, the Original Study Data will be classified as Level 0 data in the Azure Cloud Platform's tiered data access system and will remain accessible only to the Core Data Team.''
+
+\item The following provision is added as a new section in Section 2:
+
+``2.[X] Cloud Storage Infrastructure and Data Migration Authorization
+
+2.[X].1 The Data Provider hereby irrevocably authorizes the Data Recipient to:
+\begin{enumerate}
+\item[(a)] migrate the Original Study Data from on-premises infrastructure to the Azure Cloud Platform;
+\item[(b)] store and process the Original Study Data and all derived data sets in the Azure Cloud Platform; and
+\item[(c)] implement the tiered Data Access Levels system described in this Amendment.
+\end{enumerate}
+
+2.[X].2 The Data Recipient shall implement and maintain the following security and compliance measures in the Azure Cloud Platform:
+\begin{enumerate}
+\item[(a)] AES-256 encryption for data at rest;
+\item[(b)] TLS encryption for data in transit;
+\item[(c)] Azure Active Directory Role-Based Access Control;
+\item[(d)] Conditional Access Controls;
+\item[(e)] Azure Key Vault for key management;
+\item[(f)] Continuous Monitoring (Azure Monitor);
+\item[(g)] Audit Logging (Log Analytics);
+\item[(h)] Threat Detection (Azure Sentinel).
+\end{enumerate}
+
+2.[X].3 The Data Recipient shall implement and maintain appropriate data security methods according to the Data Access Level, including but not limited to:
+\begin{enumerate}
+\item[(a)] Level 0: Safe Harbor approach, Expert determination
+\item[(b)] Level 1: POPIA/GDPR compliance, Role-Based Access Control
+\item[(c)] Level 2: Location jittering, Population density-aware spatial k-anonymity
+\item[(d)] Level 3: Geographic aggregation to census areas
+\end{enumerate}
+
+2.[X].4 The Data Recipient shall maintain audit trails for all data access events regardless of access level.
+
+2.[X].5 The Data Recipient shall store data in compliant regions to prevent unlawful data transfer and shall implement appropriate geographic boundaries for data residency.''
+
+\item Section 2.12 and 2.13 [WHC DTA version] / Section 2.12 and 2.13 [UCT DTA version] regarding publication of study data and making de-identified data available to third parties is amended to add:
+
+``The Data Provider explicitly acknowledges, agrees, and authorizes that Level 2 (RP1/RP2 De-identified Data) and Level 3 (Inferential Data) will be retained by the HE²AT Center and/or its Successor Governance Entity in perpetuity for potential future projects subject to review and approval by the Data Access Committee and in accordance with all applicable ethical approvals.''
+
+\item The following new sections shall be added to Section 2 of the Agreement:
+
+``2.[Y] External Researcher Access Authorization
+
+2.[Y].1 The Data Provider hereby explicitly and irrevocably authorizes and grants permission for appropriately de-identified data derived from the Original Study Data (Level 2 Data) to be made available to External Researchers who are not members of the HE²AT Center Consortium, subject to the following conditions:
+
+\begin{enumerate}
+\item[(a)] All External Researcher access requests must be reviewed and approved by the Data Access Committee according to established criteria;
+   
+\item[(b)] External Researchers must sign a legally binding Data Use Agreement that restricts their use of the data to the specific approved research purpose and prohibits any attempt to re-identify individuals;
+   
+\item[(c)] External Researchers must commit to appropriate citation of both the HE²AT Center and the original data sources in any publications;
+   
+\item[(d)] External Researchers will only have access to Level 2 data (de-identified) and never to Level 0 or Level 1 data;
+   
+\item[(e)] All External Researcher access will be monitored and logged, with periodic audits conducted to ensure compliance with usage terms;
+   
+\item[(f)] The Data Access Committee shall maintain the right to revoke access for any External Researcher who violates the terms of their Data Use Agreement.
+\end{enumerate}
+
+2.[Y].2 The authorization for External Researcher access granted in Section 2.[Y].1 shall extend beyond the conclusion of the HE²AT Center Project and shall continue in perpetuity as part of the Post-Project Data Use authorized in Section 2.[Z].
+
+2.[Y].3 The Data Recipient shall provide to the Data Provider, upon request but not more than once annually, a summary report of all External Researcher access that has been granted to data derived from the Data Provider's Original Study Data.
+
+2.[Z] Post-Project Data Use and Long-Term Data Retention Authorization
+
+2.[Z].1 The Data Provider hereby explicitly and irrevocably authorizes and grants permission that the data derived from the Original Study Data shall be retained and may continue to be used beyond the conclusion of the HE²AT Center Project as follows:
+
+\begin{enumerate}
+\item[(a)] Level 0 Data (Original Study Data): Shall be retained for a period of 5 (five) years following the conclusion of the HE²AT Center Project for verification and validation purposes only, after which it shall be securely deleted unless the Data Provider has explicitly agreed in writing to a longer retention period;
+   
+\item[(b)] Level 1 Data (Consortium Shared Data): Shall be retained for a period of 10 (ten) years following the conclusion of the HE²AT Center Project and may be used by former HE²AT Center Consortium members for research purposes consistent with the original aims of the HE²AT Center Project;
+   
+\item[(c)] Level 2 Data (De-identified Data): Shall be retained indefinitely as a scientific resource and may continue to be made available to External Researchers through the Data Access Committee process as described in Section 2.[Y];
+   
+\item[(d)] Level 3 Data (Inferential Data): Shall be retained indefinitely as an open scientific resource.
+\end{enumerate}
+
+2.[Z].2 The Data Provider acknowledges and agrees that following the conclusion of the HE²AT Center Project, the responsibility for maintaining and governing access to the retained data may be transferred to a Successor Governance Entity. Such transfer shall not affect the authorizations granted in this Amendment, which shall extend to the Successor Governance Entity.
+
+2.[Z].3 The Data Recipient and/or its Successor Governance Entity commits to maintaining appropriate security, privacy protections, and governance structures for all retained data, including:
+
+\begin{enumerate}
+\item[(a)] Continuation of the Data Access Committee or an equivalent governance structure;
+   
+\item[(b)] Ongoing maintenance of all security measures described in Section 2.[X];
+   
+\item[(c)] Regular review of retained data to ensure ongoing compliance with evolving data protection laws and ethical standards;
+   
+\item[(d)] Implementation of a long-term sustainable funding model to support the ongoing costs of data storage, security, and governance.
+\end{enumerate}
+
+2.[Z].4 The authorizations and permissions granted in this Section 2.[Z] shall survive the termination of the HE²AT Center Project and shall continue in full force and effect for the time periods specified herein.''
+
+\item Section 2.14 [WHC DTA version] / Section 2.14 [UCT DTA version] regarding retention of data is hereby amended to read:
+
+``The Data Recipient may retain the Original Study Data and derived data in accordance with the HE²AT Center Data Management Plan and the Post-Project Data Use provisions in Section 2.[Z] of this Amendment. Any retention of Original Study Data beyond the period specified in Section 2.[Z].1(a) will require further written agreement with the Data Provider. For clarity and the avoidance of doubt, no further authorization or permission shall be required from the Data Provider for the retention and use of Level 1, Level 2, and Level 3 data as specified in Section 2.[Z].''
+\end{enumerate}
+
+\subsection{Amendment to Safeguards Provisions}
+
+Section 6 [WHC DTA version] / Section 6 [UCT DTA version] of the Agreement titled ``SAFEGUARDS'' is hereby amended to add the following:
+
+``6.4 Following the Cloud Migration, the Data Recipient shall ensure that all safeguards described in this section are implemented and maintained within the Azure Cloud Platform environment, leveraging the platform's security features including but not limited to encryption, access controls, monitoring, and audit logging.
+
+6.5 The safeguards described in this section shall apply equally to all data access, including access by External Researchers and during Post-Project Data Use periods.
+
+6.6 The Data Recipient and/or its Successor Governance Entity shall maintain these safeguards for as long as any level of data derived from the Original Study Data is retained.''
+
+\subsection{Amendment to Security Breach Provisions}
+
+Section 7 [WHC DTA version] / Section 7 [UCT DTA version] of the Agreement titled ``SECURITY BREACH'' is hereby amended to add:
+
+``7.3 The Data Recipient shall notify the Data Provider of any Security Breach affecting the Azure Cloud Platform within twenty-four (24) hours of discovery, regardless of whether the Security Breach directly impacts the Original Study Data. The Data Recipient shall provide the Data Provider with regular updates regarding the investigation and remediation of any such Security Breach.
+
+7.4 The Security Breach notification obligations described in this section shall continue to apply during any Post-Project Data Use period for as long as any level of data derived from the Original Study Data is retained.''
+
+\section{GENERAL PROVISIONS}
+
+\subsection{Full Force and Effect}
+
+Except as expressly amended by this Amendment, all terms and conditions of the Agreement shall remain in full force and effect.
+
+\subsection{Conflict}
+
+In the event of any conflict between the terms of this Amendment and the terms of the Agreement, the terms of this Amendment shall prevail.
+
+\subsection{Entire Agreement}
+
+The Agreement, as amended by this Amendment, constitutes the entire agreement between the Parties with respect to the subject matter hereof and supersedes all prior and contemporaneous agreements, understandings, negotiations, and discussions, whether oral or written, relating to such subject matter.
+
+\subsection{Counterparts}
+
+This Amendment may be executed in one or more counterparts, each of which shall be deemed an original, but all of which together shall constitute one and the same instrument. Electronic signatures and signature pages transmitted electronically shall be deemed originals for all purposes.
+
+\subsection{Effective Date}
+
+This Amendment shall be effective as of the Amendment Effective Date set forth above.
+
+\subsection{Survival}
+
+The Parties expressly acknowledge and agree that the provisions of Sections 2.[Y] and 2.[Z] of this Amendment regarding External Researcher Access and Post-Project Data Use shall survive the termination of the Agreement and the conclusion of the HE²AT Center Project.
+
+\section*{IN WITNESS WHEREOF, the Parties have executed this Amendment as of the Amendment Effective Date.}
+
+\vspace{1cm}
+
+\begin{tabular}{l l}
+\textbf{DATA PROVIDER} & \textbf{DATA RECIPIENT} \\
+\\
+\\ \hline
+Signature & Signature \\
+\\
+Name: \rule{5cm}{0.4pt} & Name: \rule{5cm}{0.4pt} \\
+\\
+Title: \rule{5cm}{0.4pt} & Title: \rule{5cm}{0.4pt} \\
+\\
+Date: \rule{5cm}{0.4pt} & Date: \rule{5cm}{0.4pt} \\
+\end{tabular}
+
+\end{document}

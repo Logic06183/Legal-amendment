@@ -1,38 +1,22 @@
-\documentclass[12pt,letterpaper]{article}
-\usepackage[margin=1in]{geometry}
-\usepackage{xcolor}
-\usepackage{ulem}
-\usepackage{titlesec}
-\usepackage{enumitem}
-\usepackage{fancyhdr}
-\usepackage{lastpage}
-\usepackage{setspace}
-\definecolor{deletecolor}{RGB}{255,0,0}
-\definecolor{addcolor}{RGB}{0,0,255}
-\newcommand{\deleted}[1]{\textcolor{deletecolor}{\sout{#1}}}
-\newcommand{\added}[1]{\textcolor{addcolor}{#1}}
-\pagestyle{fancy}
-\fancyhf{}
-\renewcommand{\headrulewidth}{0pt}
-\fancyfoot[C]{Page \thepage\ of \pageref{LastPage}}
-\titleformat{\section}{\normalfont\Large\bfseries}{\thesection}{1em}{}
-\titleformat{\subsection}{\normalfont\large\bfseries}{\thesubsection}{1em}{}
-\begin{document}
-\onehalfspacing
-\begin{center}
-\textbf{\Large DATA SHARING AGREEMENT}
-\end{center}
-\textbf{LEGEND:} \deleted{Red strikethrough text} = deleted text; \added{Blue text} = added text
-\vspace{0.5cm}
-\hrule
-\vspace{0.5cm}
-WITS HEALTH CONSORTIUM (PTY) LTD Registration Number: 1997/15443/07 31 Princess of Wales Terrace, Parktown, Johannesburg, 2193, South Africa
+DATA SHARING AGREEMENT
+
+[Provider legal name, description of entity and address details]
+
+ (hereinafter “the Data Provider”)
+
+and
+
+WITS HEALTH CONSORTIUM (PTY) LTD
+Registration Number: 1997/15443/07
+31 Princess of Wales Terrace, Parktown, Johannesburg, 2193, South Africa
 
 (hereinafter “the Data Recipient”)
 
 WHEREAS:
 
-1.	The Data Provider collected certain Data (as defined below) under the following projects: 1.1	[Description of project 1] 1.2	[Description of project 2]
+1.	The Data Provider collected certain Data (as defined below) under the following projects:
+1.1	[Description of project 1]
+1.2	[Description of project 2]
 
 2.	The Data Recipient is carrying out a project titled “Developing Data Science Solutions to Mitigate the Health Impacts of Climate Change in Africa: the HE2AT Center” (“HE2AT Project”) which is funded by the National Institutes of Health (NIH).  
 
@@ -42,19 +26,33 @@ WHEREAS:
 
 5.	The transfer of the Data will be done in accordance with the terms and conditions of this Agreement. 
 
+
 THEREFORE, THE PARTIES AGREE AS FOLLOWS:
 
 1.	DEFINITIONS
-
+    
     In this Agreement, unless the context otherwise indicates, the following words will have the following meanings:
 
 1.1	"the/this Agreement" shall mean this Agreement together with any Annexures hereto;
 
 1.2	"Commencement Date" shall mean the date on which this Agreement commenced, namely [commencement date];  
 
-\added\{"Amendment Effective Date" shall mean the date on which this Amendment becomes effective and binding upon the Parties and shall be the date of signature of the last Party to sign this Amendment. For the avoidance of doubt, the Amendment Effective Date shall be the same as the effective date of this Agreement unless otherwise specified.\}
+<span style='color: blue'>"Amendment Effective Date" shall mean the date on which this Amendment becomes effective and binding upon the Parties and shall be the date of signature of the last Party to sign this Amendment. For the avoidance of doubt, the Amendment Effective Date shall be the same as the effective date of this Agreement unless otherwise specified.</span>
 
-\added\{"Azure Cloud Platform" means the Microsoft Azure cloud computing service that will serve as the HE²AT Center Primary Repository.\} \added\{"Cloud Migration" means the process of transferring the Data and any derived data sets from the existing on-premises infrastructure to the Azure Cloud Platform.\} \added\{"Data Access Committee or DAC" means the committee established by the HE²AT Center to review and approve data access requests from external researchers according to established criteria and protocols, which shall continue to function after the conclusion of the HE²AT Center Project.\} \added\{"Data Access Levels" means the tiered access system implemented by the HE²AT Center consisting of: - Level 0: Original Study Data - Raw, unprocessed data with restricted access to Core Data Team only - Level 1: Consortium Shared Data - Processed data shared only among HE²AT Center Consortium partners - Level 2: RP1/RP2 De-identified Data - Retained by HE²AT Center for approved external researcher access - Level 3: Inferential Data - Aggregated and anonymized data available for open access\} \added\{"Extended Research Use" means the use of data derived from the Data by External Researchers for scientific research purposes that may extend beyond but remain consistent with the original aims of the HE²AT Center Project.\} \added\{"External Researcher" means any qualified researcher who is not a member of the HE²AT Center Consortium but who has been approved by the Data Access Committee to access Level 2 data for specific research purposes.\} \added\{"Geo-Distributed Storage Architecture" means the cloud architecture that enables data storage in specific geographic regions in compliance with applicable data protection laws.\} \added\{"Post-Project Data Repository" means the secure data repository that will maintain and govern access to the data after the conclusion of the HE²AT Center Project.\} \added\{"Post-Project Data Use" means the continued storage, access, and use of the data after the conclusion of the HE²AT Center Project in accordance with this Amendment.\} \added\{"Successor Governance Entity" means any entity or institution that assumes responsibility for the governance, maintenance, and oversight of the Post-Project Data Repository after the conclusion of the HE²AT Center Project.\}
+<span style='color: blue'>"Azure Cloud Platform" means the Microsoft Azure cloud computing service that will serve as the HE²AT Center Primary Repository.</span>
+<span style='color: blue'>"Cloud Migration" means the process of transferring the Data and any derived data sets from the existing on-premises infrastructure to the Azure Cloud Platform.</span>
+<span style='color: blue'>"Data Access Committee or DAC" means the committee established by the HE²AT Center to review and approve data access requests from external researchers according to established criteria and protocols, which shall continue to function after the conclusion of the HE²AT Center Project.</span>
+<span style='color: blue'>"Data Access Levels" means the tiered access system implemented by the HE²AT Center consisting of:
+- Level 0: Original Study Data - Raw, unprocessed data with restricted access to Core Data Team only
+- Level 1: Consortium Shared Data - Processed data shared only among HE²AT Center Consortium partners
+- Level 2: RP1/RP2 De-identified Data - Retained by HE²AT Center for approved external researcher access
+- Level 3: Inferential Data - Aggregated and anonymized data available for open access</span>
+<span style='color: blue'>"Extended Research Use" means the use of data derived from the Data by External Researchers for scientific research purposes that may extend beyond but remain consistent with the original aims of the HE²AT Center Project.</span>
+<span style='color: blue'>"External Researcher" means any qualified researcher who is not a member of the HE²AT Center Consortium but who has been approved by the Data Access Committee to access Level 2 data for specific research purposes.</span>
+<span style='color: blue'>"Geo-Distributed Storage Architecture" means the cloud architecture that enables data storage in specific geographic regions in compliance with applicable data protection laws.</span>
+<span style='color: blue'>"Post-Project Data Repository" means the secure data repository that will maintain and govern access to the data after the conclusion of the HE²AT Center Project.</span>
+<span style='color: blue'>"Post-Project Data Use" means the continued storage, access, and use of the data after the conclusion of the HE²AT Center Project in accordance with this Amendment.</span>
+<span style='color: blue'>"Successor Governance Entity" means any entity or institution that assumes responsibility for the governance, maintenance, and oversight of the Post-Project Data Repository after the conclusion of the HE²AT Center Project.</span>
 
 1.3	“Responsible Party” means a public or private body or any other person which, alone or in conjunction with others, determines the purpose of and means for Processing Personal Data;
 
@@ -94,17 +92,37 @@ THEREFORE, THE PARTIES AGREE AS FOLLOWS:
 
 2.4	Each Party shall pay its own costs incurred in the performance of this Agreement. Any given expense or cost can only be committed in writing by the Party responsible for the cost in question. In no case can one Party commit an expense on behalf of another Party, without prior written consent.
 
-2.5	\deleted\{\deleted\{Data Provider retains ownership of the Data and retains all rights to distribute the Data to other third parties. Data Provider warrants its authority and that it has obtained the necessary consent required to provide the Data to the Data Recipient.\}\} \added\{Data Provider retains ownership of the Data and retains all rights to distribute the Data to other third parties. The Data Provider hereby grants the Data Recipient a perpetual, irrevocable, worldwide, non-exclusive license to: (a) store the Data in the Azure Cloud Platform as part of the HE²AT Center's Cloud Migration; (b) process and transform the Data to create derived data sets at Levels 1, 2, and 3; (c) retain the derived data sets for Post-Project Data Use as specifically authorized in this Amendment; and (d) grant access to Level 2 data to External Researchers in accordance with the procedures set forth in this Amendment. This expanded license does not transfer ownership of the Data, which remains with the Data Provider.\}
+2.5	~~<span style='color: red'>Data Provider retains ownership of the Data and retains all rights to distribute the Data to other third parties. Data Provider warrants its authority and that it has obtained the necessary consent required to provide the Data to the Data Recipient.</span>~~ <span style='color: blue'>Data Provider retains ownership of the Data and retains all rights to distribute the Data to other third parties. The Data Provider hereby grants the Data Recipient a perpetual, irrevocable, worldwide, non-exclusive license to:
+(a) store the Data in the Azure Cloud Platform as part of the HE²AT Center's Cloud Migration;
+(b) process and transform the Data to create derived data sets at Levels 1, 2, and 3;
+(c) retain the derived data sets for Post-Project Data Use as specifically authorized in this Amendment; and
+(d) grant access to Level 2 data to External Researchers in accordance with the procedures set forth in this Amendment.
+This expanded license does not transfer ownership of the Data, which remains with the Data Provider.</span>
 
-\added\{The Data Provider acknowledges and agrees that initially the Data shall be accessible only to the Core HE²AT Center Data Management Team for purposes of pre-processing, harmonisation and integration to produce Consortium Shared Data as set out in the HE²AT Center Data Management Plan. Following the Cloud Migration, the Data will be classified as Level 0 data in the Azure Cloud Platform's tiered data access system and will remain accessible only to the Core HE²AT Center Data Management Team.\}
+<span style='color: blue'>The Data Provider acknowledges and agrees that initially the Data shall be accessible only to the Core HE²AT Center Data Management Team for purposes of pre-processing, harmonisation and integration to produce Consortium Shared Data as set out in the HE²AT Center Data Management Plan. Following the Cloud Migration, the Data will be classified as Level 0 data in the Azure Cloud Platform's tiered data access system and will remain accessible only to the Core HE²AT Center Data Management Team.</span>
 
 <span style='color: blue'>2.X Cloud Storage Infrastructure and Data Migration Authorization
 
-2.X.1 The Data Provider hereby irrevocably authorizes the Data Recipient to: (a) migrate the Data from on-premises infrastructure to the Azure Cloud Platform; (b) store and process the Data and all derived data sets in the Azure Cloud Platform; and (c) implement the tiered Data Access Levels system described in this Amendment.
+2.X.1 The Data Provider hereby irrevocably authorizes the Data Recipient to:
+(a) migrate the Data from on-premises infrastructure to the Azure Cloud Platform;
+(b) store and process the Data and all derived data sets in the Azure Cloud Platform; and
+(c) implement the tiered Data Access Levels system described in this Amendment.
 
-2.X.2 The Data Recipient shall implement and maintain the following security and compliance measures in the Azure Cloud Platform: (a) AES-256 encryption for data at rest; (b) TLS encryption for data in transit; (c) Azure Active Directory Role-Based Access Control; (d) Conditional Access Controls; (e) Azure Key Vault for key management; (f) Continuous Monitoring (Azure Monitor); (g) Audit Logging (Log Analytics); (h) Threat Detection (Azure Sentinel).
+2.X.2 The Data Recipient shall implement and maintain the following security and compliance measures in the Azure Cloud Platform:
+(a) AES-256 encryption for data at rest;
+(b) TLS encryption for data in transit;
+(c) Azure Active Directory Role-Based Access Control;
+(d) Conditional Access Controls;
+(e) Azure Key Vault for key management;
+(f) Continuous Monitoring (Azure Monitor);
+(g) Audit Logging (Log Analytics);
+(h) Threat Detection (Azure Sentinel).
 
-2.X.3 The Data Recipient shall implement and maintain appropriate data security methods according to the Data Access Level, including but not limited to: (a) Level 0: Safe Harbor approach, Expert determination (b) Level 1: POPIA/GDPR compliance, Role-Based Access Control (c) Level 2: Location jittering, Population density-aware spatial k-anonymity (d) Level 3: Geographic aggregation to census areas
+2.X.3 The Data Recipient shall implement and maintain appropriate data security methods according to the Data Access Level, including but not limited to:
+(a) Level 0: Safe Harbor approach, Expert determination
+(b) Level 1: POPIA/GDPR compliance, Role-Based Access Control
+(c) Level 2: Location jittering, Population density-aware spatial k-anonymity
+(d) Level 3: Geographic aggregation to census areas
 
 2.X.4 The Data Recipient shall maintain audit trails for all data access events regardless of access level.
 
@@ -114,7 +132,12 @@ THEREFORE, THE PARTIES AGREE AS FOLLOWS:
 
 2.7	Data Recipient will use the Data only for purposes of the Project.  If the Data Recipient seeks to use Data for other purposes, the Data Recipient will obtain written consent from Data Provider, either by an amendment to this Agreement or a new agreement, before such use. The Data Recipient will report to the Data Provider on the results of the Project or Study stemming from the use of the Data. 
 
-2.8	The Data Recipient is hereby authorised to transfer the Data to the following third parties listed below (“Collaborators”) for purposes of the Project:     2.8.1	University of Peleforo Gon Coulibaly, Côte d'Ivoire     2.8.2	CeSHHAR, Zimbabwe     2.8.3	IBM Research Africa      2.8.4	University of Cape Town     and subject to the Data Recipient and the relevant Collaborator/s entering into a Data Transfer Agreement on the same terms as provided for herein.  
+2.8	The Data Recipient is hereby authorised to transfer the Data to the following third parties listed below (“Collaborators”) for purposes of the Project:
+    2.8.1	University of Peleforo Gon Coulibaly, Côte d'Ivoire
+    2.8.2	CeSHHAR, Zimbabwe
+    2.8.3	IBM Research Africa 
+    2.8.4	University of Cape Town
+    and subject to the Data Recipient and the relevant Collaborator/s entering into a Data Transfer Agreement on the same terms as provided for herein.  
 
 2.9	The Data Recipient undertakes not to attempt to identify the Data Subject to whom the Data relates.
 
@@ -124,17 +147,25 @@ THEREFORE, THE PARTIES AGREE AS FOLLOWS:
 
 2.12	Under NIH grant funding policy, Study Data resulting from analysis of the Data will, where no personally identifiable data is included, be made openly available through open data access platforms to support further research.
 
-\added\{The Data Provider explicitly acknowledges, agrees, and authorizes that Level 2 (RP1/RP2 De-identified Data) and Level 3 (Inferential Data) will be retained by the HE²AT Center and/or its Successor Governance Entity in perpetuity for potential future projects subject to review and approval by the Data Access Committee and in accordance with all applicable ethical approvals.\}
+<span style='color: blue'>The Data Provider explicitly acknowledges, agrees, and authorizes that Level 2 (RP1/RP2 De-identified Data) and Level 3 (Inferential Data) will be retained by the HE²AT Center and/or its Successor Governance Entity in perpetuity for potential future projects subject to review and approval by the Data Access Committee and in accordance with all applicable ethical approvals.</span>
 
-2.13	\deleted\{\deleted\{Publications emanating from the use of the Data will follow the HE2AT Center authorship policy included in Annexure “C” attached hereto. The HE2AT Center Authorship Policy may be updated from time to time, which updates will be shared between the Parties to this Agreement.\}\} <span style='color: blue'>2.Y External Researcher Access Authorization
+2.13	~~<span style='color: red'>Publications emanating from the use of the Data will follow the HE2AT Center authorship policy included in Annexure “C” attached hereto. The HE2AT Center Authorship Policy may be updated from time to time, which updates will be shared between the Parties to this Agreement.</span>~~
+<span style='color: blue'>2.Y External Researcher Access Authorization
 
-2.Y.1 The Data Provider hereby explicitly and irrevocably authorizes and grants permission for appropriately de-identified data derived from the Data (Level 2 Data) to be made available to External Researchers who are not members of the HE²AT Center Consortium, subject to the following conditions: (a) All External Researcher access requests must be reviewed and approved by the Data Access Committee according to established criteria; (b) External Researchers must sign a legally binding Data Use Agreement that restricts their use of the data to the specific approved research purpose and prohibits any attempt to re-identify individuals; (c) External Researchers must commit to appropriate citation of both the HE²AT Center and the original data sources in any publications; (d) External Researchers will only have access to Level 2 data (de-identified) and never to Level 0 or Level 1 data; (e) All External Researcher access will be monitored and logged, with periodic audits conducted to ensure compliance with usage terms; (f) The Data Access Committee shall maintain the right to revoke access for any External Researcher who violates the terms of their Data Use Agreement.
+2.Y.1 The Data Provider hereby explicitly and irrevocably authorizes and grants permission for appropriately de-identified data derived from the Data (Level 2 Data) to be made available to External Researchers who are not members of the HE²AT Center Consortium, subject to the following conditions:
+(a) All External Researcher access requests must be reviewed and approved by the Data Access Committee according to established criteria;
+(b) External Researchers must sign a legally binding Data Use Agreement that restricts their use of the data to the specific approved research purpose and prohibits any attempt to re-identify individuals;
+(c) External Researchers must commit to appropriate citation of both the HE²AT Center and the original data sources in any publications;
+(d) External Researchers will only have access to Level 2 data (de-identified) and never to Level 0 or Level 1 data;
+(e) All External Researcher access will be monitored and logged, with periodic audits conducted to ensure compliance with usage terms;
+(f) The Data Access Committee shall maintain the right to revoke access for any External Researcher who violates the terms of their Data Use Agreement.
 
 2.Y.2 The authorization for External Researcher access granted in Section 2.Y.1 shall extend beyond the conclusion of the HE²AT Center Project and shall continue in perpetuity as part of the Post-Project Data Use authorized in Section 2.Z.
 
 2.Y.3 The Data Recipient shall provide to the Data Provider, upon request but not more than once annually, a summary report of all External Researcher access that has been granted to data derived from the Data Provider's Data.</span>
 
-2.14	\deleted\{\deleted\{The Data Recipient will retain a copy of the Data for a period of 5 years after the termination of the over-arching NIH grant agreement (current Project End Date 30 June 2026) for the purposes of concluding and correcting any analysis and publications resulting from the Data.  Any retention of Data after this 5 year period will be negotiated with the Data Provider.\}\} \added\{The Data Recipient may retain the Data and derived data in accordance with the HE²AT Center Data Management Plan and the Post-Project Data Use provisions in Section 2.Z of this Amendment. Any retention of Data beyond the period specified in Section 2.Z.1(a) will require further written agreement with the Data Provider. For clarity and the avoidance of doubt, no further authorization or permission shall be required from the Data Provider for the retention and use of Level 1, Level 2, and Level 3 data as specified in Section 2.Z.\}
+2.14	~~<span style='color: red'>The Data Recipient will retain a copy of the Data for a period of 5 years after the termination of the over-arching NIH grant agreement (current Project End Date 30 June 2026) for the purposes of concluding and correcting any analysis and publications resulting from the Data.  Any retention of Data after this 5 year period will be negotiated with the Data Provider.</span>~~
+<span style='color: blue'>The Data Recipient may retain the Data and derived data in accordance with the HE²AT Center Data Management Plan and the Post-Project Data Use provisions in Section 2.Z of this Amendment. Any retention of Data beyond the period specified in Section 2.Z.1(a) will require further written agreement with the Data Provider. For clarity and the avoidance of doubt, no further authorization or permission shall be required from the Data Provider for the retention and use of Level 1, Level 2, and Level 3 data as specified in Section 2.Z.</span>
 
 2.15	By signing this Agreement, the Data Provider confirms that it has the authority to transfer the Data and consent to provide the Data to the Recipient for use for the duration of this Agreement and as provided for in Clause 2.14.
 
@@ -174,7 +205,7 @@ Data Recipient acknowledges that Data Subjects may withdraw their informed conse
 
 9.1	Data Recipient shall notify Data Provider within twenty-four (24) hours of discovery of a potential or actual Security Breach.  In the course of notification, Data Recipient will provide feasible, sufficient information for Data Provider to assess the Security Breach.  Data Provider will determine, in consultation with Data Recipient, if notification to Data Subjects and/or government authorities is required by applicable regulations.  Where Data Provider determines that notification is required by applicable regulations, Data Recipient shall be responsible for all costs and expenses associated with the provision of such notifications.  Data Recipient will also take immediate steps to consult with Data Provider in good faith in the development of remediation efforts to rectify or mitigate the Security Breach.  
 
-9.2	Data Recipient will undertake remediation efforts at its sole expense or will reimburse Data Provider for Data Provider’s reasonable expenses incurred in connection with Data Provider-performed remediation efforts.  In addition to any method of notice described in this Agreement, notice to Data Provider of any Security Breach shall also be reported to \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_; Telephone:  \_\_\_\_\_\_\_\_\_\_\_\_\_ or Email: \_\_\_\_\_\_\_\_\_\_\_\_\_  
+9.2	Data Recipient will undertake remediation efforts at its sole expense or will reimburse Data Provider for Data Provider’s reasonable expenses incurred in connection with Data Provider-performed remediation efforts.  In addition to any method of notice described in this Agreement, notice to Data Provider of any Security Breach shall also be reported to _________________; Telephone:  _____________ or Email: _____________  
 
 10.	PERSONNEL OBLIGATIONS	
 
@@ -198,15 +229,25 @@ Notices under this Agreement will be given by personal delivery, certified mail,
 
 If to Data Recipient Principal Investigator:
 
-Attention: Matthew Francis Chersich (Research Professor)  Climate and Health Directorate, Wits RHI 22 Esselen Street, Hillbrow, Johannesburg 2100  Email: mchersich@wrhi.ac.za 
+Attention: Matthew Francis Chersich (Research Professor) 
+Climate and Health Directorate, Wits RHI
+22 Esselen Street, Hillbrow, Johannesburg 2100 
+Email: mchersich@wrhi.ac.za 
+
 
 If to Data Recipient (Legal):
 
-Attention: Alfred Farrell (CEO) Wits Health Consortium (Pty) Ltd, 31 Princess of Wales Terrace, Parktown, Johannesburg, 2193 Email: ceo@witshealth.co.za  
+Attention: Alfred Farrell (CEO)
+Wits Health Consortium (Pty) Ltd, 31 Princess of Wales Terrace, Parktown, Johannesburg, 2193
+Email: ceo@witshealth.co.za  
 
 If to Data Provider Investigator:
 
-If to Data Provider (Legal): [Provider legal contact details] Attention: Address: Email:
+If to Data Provider (Legal):
+[Provider legal contact details]
+Attention:
+Address:
+Email:
 
 15.	GENERAL
 
@@ -218,11 +259,21 @@ If to Data Provider (Legal): [Provider legal contact details] Attention: Address
 
 15.4	This Agreement may be executed in one or more counterparts, each of which shall be deemed an original, but all of which together shall constitute one and the same instrument. A signed copy of this Agreement delivered by electronic transmission shall be deemed to have the same legal effect as delivery of an original signed copy of this Agreement.
 
+
 DATA PROVIDER: 		DATA RECIPIENT:
 
-By: 		By: 					     (signature)			(signature) Name: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_		Name: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ Title: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_			Title: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_                 Date: 		Date: 				\_\_\_\_\_\_	
+By: 		By: 					
+    (signature)			(signature)
+Name: ________________________________		Name: _____________________________
+Title: ________________________________			Title: ______________________________                
+Date: 		Date: 				______	
 
-ANNEXURE A DESCRIPTION OF DATA
+
+        
+
+     
+ANNEXURE A
+DESCRIPTION OF DATA
 
 Data Source 1
 
@@ -230,26 +281,59 @@ Project Title: [Full research project title]
 
 Funder: [Original research funding details].		
 
-Data to be transferred: [Description of data to be transferred].  Individual participant data for a limited set of variables from the original dataset/s relating to maternal and child health, which include:
+Data to be transferred: [Description of data to be transferred]. 
+Individual participant data for a limited set of variables from the original dataset/s relating to maternal and child health, which include:
 
-Essential variables: •	Unique ID (study ID and participant ID) •	Date of delivery of the newborn OR date of follow-up for maternal outcomes •	Location, at a minimum: city of delivery, or city of follow-up (data on location of household, birth facility, or study clinic are preferable)
+Essential variables:
+•	Unique ID (study ID and participant ID)
+•	Date of delivery of the newborn OR date of follow-up for maternal outcomes
+•	Location, at a minimum: city of delivery, or city of follow-up (data on location of household, birth facility, or study clinic are preferable)
 
-Maternal outcomes: •	Gestational age at delivery •	Premature rupture of the membranes (PROM) •	Antepartum and postpartum hemorrhage •	Hypertensive disorders in pregnancy •	Anaemia in pregnancy •	Adverse events •	Gestational Diabetes Mellitus (GDM) •	Health facility visits  •	Maternal mental health
+Maternal outcomes:
+•	Gestational age at delivery
+•	Premature rupture of the membranes (PROM)
+•	Antepartum and postpartum hemorrhage
+•	Hypertensive disorders in pregnancy
+•	Anaemia in pregnancy
+•	Adverse events
+•	Gestational Diabetes Mellitus (GDM)
+•	Health facility visits 
+•	Maternal mental health
 
-Fetal, neonatal and child outcomes •	Prematurity (see also gestational age at delivery) •	Mortality (including cause) •	MTCT (mother-to-child transmission of HIV) •	APGAR score •	Infant growth •	Admission to neonatal intensive care units •	Intrauterine growth restriction
+Fetal, neonatal and child outcomes
+•	Prematurity (see also gestational age at delivery)
+•	Mortality (including cause)
+•	MTCT (mother-to-child transmission of HIV)
+•	APGAR score
+•	Infant growth
+•	Admission to neonatal intensive care units
+•	Intrauterine growth restriction
 
-Other variables •	Maternal age •	Date of interviews or examination •	Mode of delivery •	Facility of delivery location, or catchment area of facility •	Location of research site •	Type of facility (health center/hospital) •	Maternal HIV status •	Gravidity, parity •	Maternal weight, height, BMI
 
-Associated metadata/documentation •	codebooks •	do files •	documentation on definitions, components and processing of the data
+Other variables
+•	Maternal age
+•	Date of interviews or examination
+•	Mode of delivery
+•	Facility of delivery location, or catchment area of facility
+•	Location of research site
+•	Type of facility (health center/hospital)
+•	Maternal HIV status
+•	Gravidity, parity
+•	Maternal weight, height, BMI
+
+Associated metadata/documentation
+•	codebooks
+•	do files
+•	documentation on definitions, components and processing of the data
 
 Purpose of Data Transfer: The data will be used to quantify the current and future impacts of heat exposure on maternal and child health in sub-Saharan Africa.
 
 Data Source 2:
 
 [repeat as above for each data set to be shared]
-
+ 
 ANNEXURE B
-
+ 
 Study title: Individual Participant Data meta-analysis to quantify the impact of high ambient temperatures on maternal and child health in Africa
 
 Study rationale: Global temperatures have already increased by 1.1°C since the industrial revolution and are projected to rise by a further 1-2 degrees over the coming decades. Africa is the continent hardest hit by climate change and temperatures are rising at twice the global rate in many parts of the continent. 
@@ -262,7 +346,9 @@ Analysing pooled participant-level data from multiple settings and time periods 
 
 The IPD forms parts of the HE2AT Center (HEat and HEalth African Transdisciplinary Center) which consists of partners from South Africa (Universities of Cape Town and Witwatersrand, and IBM-Research Africa), Côte d’Ivoire (University of Peleforo Gon Coulibaly), Zimbabwe (CeSHHAR), and the United States (Universities of Michigan and Washington). The Center is funded through the United States NIH Harnessing Data Science for Health Discovery and Innovation in Africa (DS-I Africa) program1. DS-I Africa aims to make optimum use of existing data resources across Africa to address the most pressing health concerns on the continent.
 
-Study objectives: The overall objective of the study is to use innovative data science approaches to quantify the current and future impacts of heat exposure on maternal and child health in sub-Saharan Africa. The specific objectives are: 1.	To locate, acquire, collate and transform prospectively collected data from cohort studies and randomized trials on maternal and child health in sub-Saharan Africa.
+Study objectives: The overall objective of the study is to use innovative data science approaches to quantify the current and future impacts of heat exposure on maternal and child health in sub-Saharan Africa.
+The specific objectives are:
+1.	To locate, acquire, collate and transform prospectively collected data from cohort studies and randomized trials on maternal and child health in sub-Saharan Africa.
 
 2.	To develop a collaboration between the HE2AT Center and investigators of each of the studies who contribute participant-level data.
 
@@ -276,10 +362,21 @@ Methods: We will systematically locate eligible studies through a mapping review
 
 Ethical and legal considerations: The study has received ethics approval from the Human Research Ethics Committee of the University of the Witwatersrand, South Africa (Ref. No. 220605). There is minimal risk to individual study participants. Participant privacy will be protected as far as possible through the removal of participant identifiers before data transfer, data encryption, and security measures such as limiting the personal who have access to data, and data storage in secure, password-protected servers. Data sharing across countries can involve legal considerations depending on legislation in particular countries.
 
-PROSPERO registration: PROSPERO 2022 CRD42022346068 Available from: https://www.crd.york.ac.uk/prospero/display\_record.php?ID=CRD42022346068
+PROSPERO registration: PROSPERO 2022 CRD42022346068 Available from: https://www.crd.york.ac.uk/prospero/display_record.php?ID=CRD42022346068
 
-Funding acknowledgement: The study is funded by the Fogarty International Center and National Institute of Environmental Health Sciences (NIEHS) and OD/Office of Strategic Coordination (OSC) of the National Institutes of Health under Award Number U54 TW 012083.  ANNEXURE C
+Funding acknowledgement: The study is funded by the Fogarty International Center and National Institute of Environmental Health Sciences (NIEHS) and OD/Office of Strategic Coordination (OSC) of the National Institutes of Health under Award Number U54 TW 012083. 
+ANNEXURE C
 
-Authorship guidelines for studies who contribute data  Study Principal Investigators, Site Principal Investigators, and additional contributing study members will be invited to be part of the authorship group for any publications that include use of the data from their study.  The authorship guidelines adhere to the ICMJE criteria for authorship, which include:   1	Substantial contributions to the conception or design of the work; or the acquisition, analysis, or interpretation of data for the work; AND  2	Drafting the work or revising it critically for important intellectual content; AND  3	Final approval of the version to be published; AND  4	Agreement to be accountable for all aspects of the work in ensuring that questions related to the accuracy or integrity of any part of the work are appropriately investigated and resolved.  The authorship guidelines and study acknowledgements are based on an appreciation of the substantial contribution made by Principal Investigators in providing data from their study, and in recognition of the work involved in conducting the study.  We will include one author per included study (usually study PI), but additional country-PI will be included for multi-country studies. The listed authors of the studies which are contributing data will be named in alphabetical order by surname, from positions 4th author to second-last author. As such, authorships 1-3 and last authorship will be reserved for those who contributed most to the work, and as per ICMJE.  Some journals may place a restriction on the number of authors that may be listed and require that additional authors beyond that number should be included as part of the ‘HEAT Center study Group‘. In this situation, the HEAT Center Steering Committee will have the right to make a decision on final authorship, taking into consideration the studies which contributed most participants to the IPD.  The study group will be published in an Appendix where journals will allow this, or otherwise be listed in the acknowledgement section. Here, listing will be done by role in the study and/or by Study/site. Any additional contributors from a study, who adhere to ICMJE criteria will be listed as part of the ‘HEAT Center study Group’ in an Appendix where journals will allow this, or otherwise be listed in the acknowledgement section.  The name of the funder of the contributing study and of other Principal Investigators will be included in the acknowledgements, as relevant.    Study Principal Investigators can be given access to the harmonized database in cases where they intend to conduct a secondary analysis, and are encouraged to submit a concept note of the proposed research question and analysis, should they wish to lead the analysis and/or writing of the paper. All concept notes will be reviewed by the HEAT Center Steering Committee who will make a decision based on the Publication Policy Standard Operating Procedures of the Center. 
-
-\end{document}
+Authorship guidelines for studies who contribute data 
+Study Principal Investigators, Site Principal Investigators, and additional contributing study members will be invited to be part of the authorship group for any publications that include use of the data from their study. 
+The authorship guidelines adhere to the ICMJE criteria for authorship, which include:  
+1	Substantial contributions to the conception or design of the work; or the acquisition, analysis, or interpretation of data for the work; AND 
+2	Drafting the work or revising it critically for important intellectual content; AND 
+3	Final approval of the version to be published; AND 
+4	Agreement to be accountable for all aspects of the work in ensuring that questions related to the accuracy or integrity of any part of the work are appropriately investigated and resolved. 
+The authorship guidelines and study acknowledgements are based on an appreciation of the substantial contribution made by Principal Investigators in providing data from their study, and in recognition of the work involved in conducting the study. 
+We will include one author per included study (usually study PI), but additional country-PI will be included for multi-country studies. The listed authors of the studies which are contributing data will be named in alphabetical order by surname, from positions 4th author to second-last author. As such, authorships 1-3 and last authorship will be reserved for those who contributed most to the work, and as per ICMJE. 
+Some journals may place a restriction on the number of authors that may be listed and require that additional authors beyond that number should be included as part of the ‘HEAT Center study Group‘. In this situation, the HEAT Center Steering Committee will have the right to make a decision on final authorship, taking into consideration the studies which contributed most participants to the IPD. 
+The study group will be published in an Appendix where journals will allow this, or otherwise be listed in the acknowledgement section. Here, listing will be done by role in the study and/or by Study/site. Any additional contributors from a study, who adhere to ICMJE criteria will be listed as part of the ‘HEAT Center study Group’ in an Appendix where journals will allow this, or otherwise be listed in the acknowledgement section. 
+The name of the funder of the contributing study and of other Principal Investigators will be included in the acknowledgements, as relevant.   
+Study Principal Investigators can be given access to the harmonized database in cases where they intend to conduct a secondary analysis, and are encouraged to submit a concept note of the proposed research question and analysis, should they wish to lead the analysis and/or writing of the paper. All concept notes will be reviewed by the HEAT Center Steering Committee who will make a decision based on the Publication Policy Standard Operating Procedures of the Center. 
