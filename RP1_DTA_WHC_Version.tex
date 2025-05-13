@@ -1,0 +1,393 @@
+\documentclass[12pt,letterpaper]{article}
+\usepackage{geometry}
+\geometry{margin=1in}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{xcolor}
+\usepackage{soul} % For strikethrough
+\usepackage{ulem} % For strikethrough
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,
+    urlcolor=blue,
+}
+
+% Define colors for track changes
+\definecolor{deletecolor}{RGB}{255,0,0}
+\definecolor{addcolor}{RGB}{0,0,255}
+
+% Commands for tracked changes
+\newcommand{\deleted}[1]{\textcolor{deletecolor}{\sout{#1}}}
+\newcommand{\added}[1]{\textcolor{addcolor}{#1}}
+
+\titleformat{\section}
+  {\normalfont\Large\bfseries}{\thesection}{1em}{}
+\titleformat{\subsection}
+  {\normalfont\large\bfseries}{\thesubsection}{1em}{}
+
+\setlist{noitemsep}
+
+\title{\textbf{WITS HEALTH CONSORTIUM\\DATA TRANSFER AGREEMENT (RP1)\\WITH TRACKED AMENDMENTS}}
+\author{}
+\date{}
+
+\begin{document}
+
+\maketitle
+
+\begin{center}
+\textbf{LEGEND}\\
+\textcolor{deletecolor}{Red strikethrough text} = deleted text\\
+\textcolor{addcolor}{Blue text} = added text
+\end{center}
+
+\vspace{1cm}
+
+\begin{center}
+\textbf{\Large DATA TRANSFER AGREEMENT}\\
+\vspace{0.5cm}
+(the ``Agreement'')
+\end{center}
+
+\vspace{0.5cm}
+
+\textbf{Effective Date:} [Insert Date]
+
+\textbf{Between:}
+
+\textbf{The WITS HEALTH CONSORTIUM (PTY) LIMITED}, a company incorporated under the laws of the Republic of South Africa, registration number 2000/026915/07 (hereinafter ``the Data Provider'').
+
+\vspace{0.2cm}
+
+\textbf{And:}
+
+\textbf{THE UNIVERSITY OF CAPE TOWN}, a tertiary education institution in terms of the Higher Education Act 101 of 1997, as amended (hereinafter ``the Data Recipient'').
+
+\vspace{0.5cm}
+
+\textbf{CONTACT INFORMATION FOR NOTICES:}
+
+\textbf{If to Data Recipient (Technical):}
+
+Dr Christopher Jack
+
+Climate System Analysis Group
+
+Department of Environmental and Geographical Science University of Cape Town South Africa
+
+Email: cjack@csag.uct.ac.za
+
+\textbf{If to Data Recipient (Legal)}:
+
+Attention: Director, Department of Research Contracts and Innovation, University of Cape Town
+
+Address: Allan Cormack Building, 2 Rhodes Ave, Corner Main Rd, Mowbray, 7700
+
+Email: director.rci@uct.ac.za
+
+\textbf{If to Data Provider Investigator}:
+
+\textbf{If to Data Provider (Legal)}:
+
+[Provider legal contact details]
+
+Attention:
+
+Address:
+
+Email:
+
+\section{GENERAL}
+
+12.1 In no event shall Data Provider be liable for any use by the Data Recipient of the Original Study Data or for any loss, claim, damage, or liability, of any kind or nature, that may arise from or in connection with this Agreement or Data Recipient's use, handling, or storage of Data.
+
+12.2 This Agreement does not constitute, grant nor confer any license under any patents or other proprietary interests of one Party to the other, except as explicitly stated in this Agreement.
+
+12.3 This Agreement may be amended by written agreement between the Parties.
+
+12.4 This Agreement may be executed in one or more counterparts, each of which shall be deemed an original, but all of which together shall constitute one and the same instrument. A signed copy of this Agreement delivered by electronic transmission shall be deemed to have the same legal effect as delivery of an original signed copy of this Agreement.
+
+12.5 The provisions of this Agreement that by their nature are intended to survive termination or expiration of the Agreement shall survive such termination or expiration and shall remain in full force and effect.
+
+\added{12.6 The Parties expressly acknowledge and agree that the provisions of Sections 2.11 and 2.12 of this Amendment regarding External Researcher Access and Post-Project Data Use shall survive the termination of the Agreement and the conclusion of the HE²AT Center Project.}
+
+12.\deleted{6}\added{7} The Data Recipient hereby acknowledges and accepts that the signatory of this Agreement on behalf of the Data Provider represents and warrants that they have the full authority and capacity to enter into and bind the Data Provider to the terms of this Agreement. The Data Recipient shall not be held liable or responsible in any manner for any breach of authority or lack thereof by the signatory. Should it be determined that the signatory did not possess the requisite authority to execute this Agreement, the Data Recipient shall remain indemnified and free from any and all claims, liabilities, losses, damages, or expenses arising therefrom.
+
+\vspace{0.5cm}
+
+\textbf{IN WITNESS WHEREOF, the Parties have executed this Agreement as of the \added{Amendment} Effective Date.}
+
+\vspace{1cm}
+
+\begin{tabular}{|p{0.45\textwidth}|p{0.45\textwidth}|}
+\hline
+\textbf{DATA PROVIDER} & \textbf{DATA RECIPIENT} \\
+\hline
+ & \\
+ & \\
+\hline
+(signature) & (signature) \\
+\hline
+Name: & Name: \\
+\hline
+Title: & Title: \\
+\hline
+Date: & Date: \\
+\hline
+\end{tabular}
+
+\vspace{2cm}
+
+\begin{center}
+\textbf{\Large SUMMARY OF KEY AMENDMENTS}
+\end{center}
+
+\begin{enumerate}
+\item \textbf{Cloud Migration Authorization}
+   \begin{itemize}
+   \item Added definitions related to cloud infrastructure
+   \item Authorized migration of data to Azure Cloud Platform
+   \item Specified security requirements for cloud storage
+   \item Outlined the four-tier data access model
+   \end{itemize}
+
+\item \textbf{External Researcher Access}
+   \begin{itemize}
+   \item Explicitly authorized qualified external researchers to access Level 2 data
+   \item Established governance process through Data Access Committee
+   \item Required legally binding Data Use Agreements
+   \item Required appropriate citation of original data sources
+   \item Implemented monitoring and reporting mechanisms
+   \end{itemize}
+
+\item \textbf{Long-Term Data Retention and Post-Project Use}
+   \begin{itemize}
+   \item Authorized retention of data after HE²AT Center Project ends
+   \item Specified retention periods for each data level
+   \item Level 0 (Original Study Data): 5 years then deletion
+   \item Level 1 (Consortium Shared Data): 10 years
+   \item Levels 2-3 (De-identified and Inferential Data): Indefinite retention
+   \item Provided for transfer to Successor Governance Entity
+   \item Required ongoing security and compliance measures
+   \end{itemize}
+
+\item \textbf{Enhanced Security and Privacy Protections}
+   \begin{itemize}
+   \item Extended safeguards to cloud environment
+   \item Applied safeguards to external researcher access
+   \item Continued security breach notification obligations
+   \item Required audit trails for all data access
+   \item Geographic controls to prevent unlawful data transfers
+   \end{itemize}
+
+\item \textbf{Survival of Key Provisions}
+   \begin{itemize}
+   \item Explicitly stated that External Researcher Access and Post-Project Data Use provisions survive termination
+   \item Confirmed perpetual nature of authorizations for Levels 2-3 data
+   \item Clarified that original data ownership remains unchanged
+   \end{itemize}
+\end{enumerate}
+
+\pagebreak
+
+\section{DEFINITIONS}
+
+In this Agreement, unless the context otherwise indicates, the following words will have the following meanings:
+
+1.1 \textbf{\\"the/this Agreement\\"} shall mean this Agreement together with any Annexures hereto;
+
+1.2 \textbf{"Data"} means the information and documents listed in Annexure A (Description of Data) and forming part of this Agreement;
+
+1.3 \textbf{"Data Access Committee"} means a committee established by the Data Recipient with appropriate representation across the HE²AT Center Consortium, with responsibility for reviewing and approving all requests for access to data, both internally within the Consortium and from external researchers;
+
+1.4 \textbf{"Data Laws"} means any and all applicable legislation, regulations, directives, statutes, codes of practice, guidance and/or guidelines (whether local, national, international or otherwise existing from time to time) applicable to this Agreement pursuant to Data Protection laws including without limitation, to the extent applicable, the Protection of Personal Information Act 4 of 2013, General Data Protection Regulation (EU) 2016/679, and the Health Insurance Portability and Accountability Act of 1996;
+
+1.5 \textbf{"Data Protection"} means the protection of Personal Data against unauthorized disclosure, access, use, modification, recording, storage or destruction;
+
+1.6 \textbf{"Data Subject"} means the person to whom Personal Data relates;
+
+1.7 \textbf{"De-identified Data"} means data that has been processed to remove all identifiers, such that the identities of the Data Subjects cannot be connected to the information by reasonably foreseeable means;
+
+1.8 \textbf{"Effective Date"} means the date upon which this Agreement becomes effective, as specified in the preamble hereto;
+
+1.9 \textbf{"Health Research Ethics Committee"} or \textbf{"HREC"} means the committee responsible for ethical clearance of all research conducted by the Data Recipient under this Agreement and in respect of the Data;
+
+1.10 \textbf{"HE²AT Center"} or \textbf{"The Heat Equity and Environmental Temperature (HE²AT) Center"} means the multidisciplinary, international research consortium established with grant funding from the Fogarty International Center of the National Institutes of Health, with the University of Cape Town as the administrative core, focused on quantifying the current and future impacts of heat exposure on maternal and child health in sub-Saharan Africa;
+
+1.11 \textbf{"HE²AT Center Consortium"} means those institutions and organizations that are members of the Heat Center consortium as listed in Annexure C and as may be amended from time to time;
+
+1.12 \textbf{"person"} means a natural or juristic person;
+
+1.13 \textbf{"Personal Data"} means any information relating to an identifiable, living, natural person, and where it is applicable, an identifiable, existing juristic person;
+
+1.14 \textbf{"Original Study Data"} means the data collected from the Research Participants as part of the original studies/projects, as specified in Annexure A;
+
+1.15 \textbf{"Research Participants"} means individual participants who were recruited in the original study/project;
+
+1.16 \textbf{"Successor Governance Entity"} means a legal entity designated by the HE²AT Center Consortium to assume governance responsibility for data and associated policies after the conclusion of the HE²AT Center Project;
+
+1.17 \textbf{"Collaborator"} means an individual or organization who, with the approval of the Data Recipient, is collaborating with the Data Recipient on the research described in Annexure B (Description of Study);
+
+1.18 \textbf{"Third Party Collaborator"} means a researcher collaborating with the Data Recipient;
+
+1.19 \textbf{"Regulations"} means rules, regulations, guidelines, directives, or other instructions having the force of law;
+
+1.20 \textbf{"Regulatory Authority"} means any government or governmental, administrative, fiscal or judicial body, department, commission, authority, tribunal, agency or entity.
+
+\added{1.21 \textbf{"Azure Cloud Platform"} means the Microsoft Azure cloud computing service that will serve as the HE²AT Center Primary Repository.}
+
+\added{1.22 \textbf{"Cloud Migration"} means the process of transferring the Original Study Data and any derived data sets from the existing on-premises infrastructure to the Azure Cloud Platform.}
+
+\added{1.23 \textbf{"Data Access Level"} means the categorization system applied to the Original Study Data and derived data sets that determines access permissions and usage rights, with Level 0 being the most restricted and Level 3 being the most accessible.}
+
+\added{1.24 \textbf{"Data Use Agreement"} means a legally binding agreement that must be executed by any External Researcher before they are granted access to Level 2 data, which specifies permitted uses, prohibitions, citation requirements, and other terms and conditions.}
+
+\added{1.25 \textbf{"De-identification Process"} means the technical procedures implemented by the Data Recipient to transform the Original Study Data into Level 2 data by removing all direct and indirect identifiers.}
+
+\added{1.26 \textbf{"External Researcher"} means any qualified researcher who is not a member of the HE²AT Center Consortium but who has been approved by the Data Access Committee to access Level 2 data for specific research purposes.}
+
+\added{1.27 \textbf{"HE²AT Center Project"} means the funded research initiative with a defined start and end date, after which the post-project data use provisions of this Agreement will take effect.}
+
+\added{1.28 \textbf{"Level 0 Data"} means the Original Study Data in its unmodified form that contains direct and indirect identifiers.}
+
+\added{1.29 \textbf{"Level 1 Data"} means data that has been minimally processed but still contains indirect identifiers and is shared only within the HE²AT Center Consortium.}
+
+\added{1.30 \textbf{"Level 2 Data"} means fully de-identified data derived from the Original Study Data that may be made available to approved External Researchers.}
+
+\added{1.31 \textbf{"Level 3 Data"} means data that has been aggregated to geographic units (such as census areas) and contains no individual-level information.}
+
+\section{TRANSFER AND USE OF DATA}
+
+2.1 The Data Provider has the legal right to provide the Data to the Data Recipient in compliance with all applicable laws, regulations, and policies, including those relating to Data Protection, privacy, ethics, and informed consent. 
+
+2.2 The Data Provider shall supply the Data to the Data Recipient for the purposes specified in Annexure B (Description of Study). 
+
+2.3 The Data will be used exclusively for academic and non-commercial research purposes. The Data Recipient shall not use the Data or allow others to use the Data for any other purposes without the prior written consent of the Data Provider. For the avoidance of doubt, non-commercial research purposes include:
+
+2.3.1 The publication of research results in scientific journals, research reports, policy documents, and other academic publications; and
+
+2.3.2 The use of research results for teaching purposes.
+
+2.4 The Data Provider grants to the Data Recipient and the HE²AT Center Consortium a non-exclusive, worldwide, royalty-free license to use the Data for the purposes set out in Annexure B (Description of Study). 
+
+2.5 The Data Provider agrees that the Data Recipient and the HE²AT Center Consortium may:
+
+2.5.1 Combine the Data with other datasets for the purposes specified in Annexure B (Description of Study);
+
+2.5.2 Transform and modify the Data as required for analysis; and
+
+2.5.3 Retain De-identified Data (Level 2 and Level 3) after termination of this Agreement, subject to the provisions of Section 2.8.
+
+\added{2.6 The Data Provider hereby expands the license granted in Section 2.4 to explicitly authorize the following additional uses of the Data and derived datasets:
+
+\begin{enumerate}
+\item[(a)] Migration to cloud infrastructure as specified in Section 2.10;
+\item[(b)] Creation of multi-tiered data access levels as specified in Section 2.10;
+\item[(c)] Provision of access to qualified External Researchers as specified in Section 2.11; and
+\item[(d)] Long-term retention and post-project use as specified in Section 2.12.
+\end{enumerate}
+
+This expanded license does not transfer ownership of the Original Study Data, which remains with the Data Provider.}
+
+2.7 The Data Recipient shall ensure that any member of the HE²AT Center Consortium receiving the Data (or a portion thereof) shall be bound by the terms and conditions of this Agreement.
+
+2.8 Changes in the HE²AT Center Consortium membership shall be handled as follows:
+
+2.8.1 The Data Recipient will provide written notice to the Data Provider of any new member/s to the HE²AT Center Consortium;
+
+2.8.2 The new member shall sign and be bound by the Data Transfer Agreement entered into by the existing HE²AT Center Consortium members as per Clause 2.7.
+
+2.9 The Data Provider further agrees that the Data Recipient may:
+
+2.9.1 Create and distribute De-identified Data derived from the original Data for research purposes within the HE²AT Center Consortium;
+
+2.9.2 Share De-identified Data with research collaborators outside the HE²AT Center Consortium only with the prior written consent of the Data Provider, except as explicitly authorized in Section 2.11 of this Agreement.
+
+\added{2.10 Cloud Storage Infrastructure and Data Migration Authorization}
+
+\added{2.10.1 The Data Provider hereby irrevocably authorizes the Data Recipient to:
+\begin{enumerate}
+\item[(a)] migrate the Original Study Data from on-premises infrastructure to the Azure Cloud Platform;
+\item[(b)] store and process the Original Study Data and all derived data sets in the Azure Cloud Platform; and
+\item[(c)] implement the data access level system described in Section 2.10.3.
+\end{enumerate}}
+
+\added{2.10.2 The Data Recipient shall ensure that the Azure Cloud Platform meets or exceeds the following security requirements:
+\begin{enumerate}
+\item[(a)] Compliance with international data security standards including ISO 27001, SOC 1 and SOC 2;
+\item[(b)] End-to-end encryption for data at rest and in transit;
+\item[(c)] Multi-factor authentication for all user access;
+\item[(d)] Regular security audits and penetration testing;
+\item[(e)] Comprehensive access logging and monitoring; and
+\item[(f)] Geographic data residency controls.
+\end{enumerate}}
+
+\added{2.10.3 The Data Recipient shall implement a four-tier data access model in the cloud environment as follows:
+\begin{enumerate}
+\item[(a)] Level 0: Original Study Data (restricted to designated data managers only)
+\item[(b)] Level 1: Consortium Shared Data (minimally processed, identifiable, restricted to HE²AT Center Consortium members)
+\item[(c)] Level 2: De-identified individual-level data (available to approved External Researchers)
+\item[(d)] Level 3: Geographic aggregation to census areas
+\end{enumerate}}
+
+\added{2.10.4 The Data Recipient shall maintain audit trails for all data access events regardless of access level.}
+
+\added{2.10.5 The Data Recipient shall store data in compliant regions to prevent unlawful data transfer and shall implement appropriate geographic boundaries for data residency.}
+
+\added{2.11 External Researcher Access to Level 2 Data}
+
+\added{2.11.1 The Data Provider hereby explicitly and irrevocably authorizes and grants permission for appropriately de-identified data derived from the Original Study Data (Level 2 Data) to be made available to External Researchers who are not members of the HE²AT Center Consortium, subject to the following conditions:
+\begin{enumerate}
+\item[(a)] All External Researcher access requests must be reviewed and approved by the Data Access Committee according to established criteria;
+\item[(b)] External Researchers must sign a legally binding Data Use Agreement that restricts their use of the data to the specific approved research purpose and prohibits any attempt to re-identify individuals;
+\item[(c)] External Researchers must commit to appropriate citation of both the HE²AT Center and the original data sources in any publications;
+\item[(d)] External Researchers will only have access to Level 2 data (de-identified) and never to Level 0 or Level 1 data;
+\item[(e)] All External Researcher access will be monitored and logged, with periodic audits conducted to ensure compliance with usage terms;
+\item[(f)] The Data Access Committee shall maintain the right to revoke access for any External Researcher who violates the terms of their Data Use Agreement.
+\end{enumerate}}
+
+\added{2.11.2 The authorization for External Researcher access granted in Section 2.11.1 shall extend beyond the conclusion of the HE²AT Center Project and shall continue in perpetuity as part of the Post-Project Data Use authorized in Section 2.12.}
+
+\added{2.11.3 The Data Recipient shall provide to the Data Provider, upon request but not more than once annually, a summary report of all External Researcher access that has been granted to data derived from the Data Provider's Original Study Data.}
+
+\added{2.12 Post-Project Data Use and Long-Term Data Retention Authorization}
+
+\added{2.12.1 The Data Provider hereby explicitly and irrevocably authorizes and grants permission that the data derived from the Original Study Data shall be retained and may continue to be used beyond the conclusion of the HE²AT Center Project as follows:
+\begin{enumerate}
+\item[(a)] Level 0 Data (Original Study Data): Shall be retained for a period of 5 (five) years following the conclusion of the HE²AT Center Project for verification and validation purposes only, after which it shall be securely deleted unless the Data Provider has explicitly agreed in writing to a longer retention period;
+\item[(b)] Level 1 Data (Consortium Shared Data): Shall be retained for a period of 10 (ten) years following the conclusion of the HE²AT Center Project and may be used by former HE²AT Center Consortium members for research purposes consistent with the original aims of the HE²AT Center Project;
+\item[(c)] Level 2 Data (De-identified Individual-Level Data): Shall be retained indefinitely and may continue to be used for research purposes and made available to approved External Researchers through the Data Access Committee process;
+\item[(d)] Level 3 Data (Geographically Aggregated Data): Shall be retained indefinitely and may be made publicly available through appropriate data repositories with appropriate attribution to the original data sources.
+\end{enumerate}}
+
+\added{2.12.2 The Data Recipient may transfer governance responsibility for the ongoing management and oversight of Level 2 and Level 3 Data to a Successor Governance Entity after the conclusion of the HE²AT Center Project, provided that:
+\begin{enumerate}
+\item[(a)] The Successor Governance Entity is a reputable academic or research institution with appropriate data governance experience;
+\item[(b)] The Successor Governance Entity commits in writing to uphold all the terms and conditions of this Agreement as they pertain to data management, security, and access;
+\item[(c)] The Data Provider is notified in writing of the identity of the Successor Governance Entity at least 90 days prior to the transfer of governance responsibilities;
+\item[(d)] The Successor Governance Entity establishes a Data Access Committee with appropriate expertise to review and approve all future data access requests.
+\end{enumerate}}
+
+\added{2.12.3 All data that continues to be retained and used after the conclusion of the HE²AT Center Project shall be subject to ongoing security measures, compliance with applicable Data Laws, and ethical oversight equivalent to those in place during the HE²AT Center Project.}
+
+2.13 The Data Recipient shall ensure appropriate security measures are in place to prevent any unauthorized access, disclosure, or breach of the Data.
+
+2.14 All safeguards, measures and controls implemented by the Data Recipient in terms of this Agreement will be reasonable and at a minimum include all applicable industry standards relating to the security, safeguarding, and confidentiality of data, to the extent such standards are consistent with the Data Provider's practices.
+
+2.15 The Data Provider warrants that it has obtained all necessary approvals, consents, and authorizations required for the disclosure, transfer, processing, and use of the Data as contemplated in this Agreement, including but not limited to:
+
+2.15.1 Ethics approval from the relevant Human Research Ethics Committee;
+
+2.15.2 Informed consent from the Research Participants, where applicable;
+
+2.15.3 Any necessary regulatory approvals.
+
+2.16 The Data Provider warrants that the transfer and use of the Data as contemplated in this Agreement does not breach any applicable law, regulation, or contractual obligation.
+
+2.17 The Data Provider warrants that the sharing of the Data with the Data Recipient and the HE²AT Center Consortium as contemplated in this Agreement is consistent with the informed consent obtained from the Research Participants.
+
+2.18 The Data Provider agrees to indemnify, defend, and hold harmless the Data Recipient from and against any and all claims, damages, losses, liabilities, costs, and expenses (including reasonable attorney's fees) arising out of or related to any breach of the warranties set forth in the above mentioned clause 2.15 and 2.17, including any claim by a third party that it has rights in the Original Study Data.
+
+\end{document}

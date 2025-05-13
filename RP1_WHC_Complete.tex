@@ -1,0 +1,194 @@
+\documentclass[12pt,letterpaper]{article}
+\usepackage{geometry}
+\geometry{margin=1in}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{xcolor}
+\usepackage{soul} % For strikethrough
+\usepackage{ulem} % For strikethrough
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,
+    urlcolor=blue,
+}
+
+% Define colors for track changes
+\definecolor{deletecolor}{RGB}{255,0,0}
+\definecolor{addcolor}{RGB}{0,0,255}
+
+% Commands for tracked changes
+\newcommand{\deleted}[1]{\textcolor{deletecolor}{\sout{#1}}}
+\newcommand{\added}[1]{\textcolor{addcolor}{#1}}
+
+\titleformat{\section}
+  {\normalfont\Large\bfseries}{\thesection}{1em}{}
+\titleformat{\subsection}
+  {\normalfont\large\bfseries}{\thesubsection}{1em}{}
+
+\setlist{noitemsep}
+
+\title{\textbf{WITS HEALTH CONSORTIUM\\DATA TRANSFER AGREEMENT (RP1)\\WITH TRACKED AMENDMENTS}}
+\author{}
+\date{}
+
+\begin{document}
+
+\maketitle
+
+\begin{center}
+\textbf{LEGEND}\\
+\textcolor{deletecolor}{Red strikethrough text} = deleted text\\
+\textcolor{addcolor}{Blue text} = added text
+\end{center}
+
+\vspace{1cm}
+
+\begin{center}
+\textbf{\Large DATA TRANSFER AGREEMENT}\\
+\vspace{0.5cm}
+(the ``Agreement'')
+\end{center}
+
+\vspace{0.5cm}
+
+\textbf{Effective Date:} [Insert Date]
+
+\textbf{Between:}
+
+\textbf{The WITS HEALTH CONSORTIUM (PTY) LIMITED}, a company incorporated under the laws of the Republic of South Africa, registration number 2000/026915/07 (hereinafter ``the Data Provider'').
+
+\vspace{0.2cm}
+
+\textbf{And:}
+
+\textbf{THE UNIVERSITY OF CAPE TOWN}, a tertiary education institution in terms of the Higher Education Act 101 of 1997, as amended (hereinafter ``the Data Recipient'').
+
+\vspace{0.5cm}
+
+\textbf{CONTACT INFORMATION FOR NOTICES:}
+
+\textbf{If to Data Recipient (Technical):}
+
+Dr Christopher Jack
+
+Climate System Analysis Group
+
+Department of Environmental and Geographical Science University of Cape Town South Africa
+
+Email: cjack@csag.uct.ac.za
+
+\textbf{If to Data Recipient (Legal)}:
+
+Attention: Director, Department of Research Contracts and Innovation, University of Cape Town
+
+Address: Allan Cormack Building, 2 Rhodes Ave, Corner Main Rd, Mowbray, 7700
+
+Email: director.rci@uct.ac.za
+
+\textbf{If to Data Provider Investigator}:
+
+\textbf{If to Data Provider (Legal)}:
+
+[Provider legal contact details]
+
+Attention:
+
+Address:
+
+Email:
+
+\section{GENERAL}
+
+12.1 In no event shall Data Provider be liable for any use by the Data Recipient of the Original Study Data or for any loss, claim, damage, or liability, of any kind or nature, that may arise from or in connection with this Agreement or Data Recipient's use, handling, or storage of Data.
+
+12.2 This Agreement does not constitute, grant nor confer any license under any patents or other proprietary interests of one Party to the other, except as explicitly stated in this Agreement.
+
+12.3 This Agreement may be amended by written agreement between the Parties.
+
+12.4 This Agreement may be executed in one or more counterparts, each of which shall be deemed an original, but all of which together shall constitute one and the same instrument. A signed copy of this Agreement delivered by electronic transmission shall be deemed to have the same legal effect as delivery of an original signed copy of this Agreement.
+
+12.5 The provisions of this Agreement that by their nature are intended to survive termination or expiration of the Agreement shall survive such termination or expiration and shall remain in full force and effect.
+
+\added{12.6 The Parties expressly acknowledge and agree that the provisions of Sections 2.11 and 2.12 of this Amendment regarding External Researcher Access and Post-Project Data Use shall survive the termination of the Agreement and the conclusion of the HE²AT Center Project.}
+
+12.\deleted{6}\added{7} The Data Recipient hereby acknowledges and accepts that the signatory of this Agreement on behalf of the Data Provider represents and warrants that they have the full authority and capacity to enter into and bind the Data Provider to the terms of this Agreement. The Data Recipient shall not be held liable or responsible in any manner for any breach of authority or lack thereof by the signatory. Should it be determined that the signatory did not possess the requisite authority to execute this Agreement, the Data Recipient shall remain indemnified and free from any and all claims, liabilities, losses, damages, or expenses arising therefrom.
+
+\vspace{0.5cm}
+
+\textbf{IN WITNESS WHEREOF, the Parties have executed this Agreement as of the \added{Amendment} Effective Date.}
+
+\begin{center}
+\textbf{WITS HEALTH CONSORTIUM - RESEARCH PROJECT 1 (RP1)}
+\end{center}
+
+\begin{tabular}{|p{0.45\textwidth}|p{0.45\textwidth}|}
+\hline
+\textbf{DATA PROVIDER} & \textbf{DATA RECIPIENT} \\
+\hline
+WITS HEALTH CONSORTIUM & UNIVERSITY OF CAPE TOWN \\
+\hline
+(signature) & (signature) \\
+\hline
+Name: & Name: \\
+\hline
+Title: & Title: \\
+\hline
+Date: & Date: \\
+\hline
+\end{tabular}
+
+\vspace{1cm}
+
+\begin{center}
+\textbf{\Large SUMMARY OF KEY AMENDMENTS}
+\end{center}
+
+\begin{enumerate}
+\item \textbf{Cloud Migration Authorization}
+   \begin{itemize}
+   \item Added definitions related to cloud infrastructure
+   \item Authorized migration of data to Azure Cloud Platform
+   \item Specified security requirements for cloud storage
+   \item Outlined the four-tier data access model
+   \end{itemize}
+
+\item \textbf{External Researcher Access}
+   \begin{itemize}
+   \item Explicitly authorized qualified external researchers to access Level 2 data
+   \item Established governance process through Data Access Committee
+   \item Required legally binding Data Use Agreements
+   \item Required appropriate citation of original data sources
+   \item Implemented monitoring and reporting mechanisms
+   \end{itemize}
+
+\item \textbf{Long-Term Data Retention and Post-Project Use}
+   \begin{itemize}
+   \item Authorized retention of data after HE²AT Center Project ends
+   \item Specified retention periods for each data level
+   \item Level 0 (Original Study Data): 5 years then deletion
+   \item Level 1 (Consortium Shared Data): 10 years
+   \item Levels 2-3 (De-identified and Inferential Data): Indefinite retention
+   \item Provided for transfer to Successor Governance Entity
+   \item Required ongoing security and compliance measures
+   \end{itemize}
+
+\item \textbf{Enhanced Security and Privacy Protections}
+   \begin{itemize}
+   \item Extended safeguards to cloud environment
+   \item Applied safeguards to external researcher access
+   \item Continued security breach notification obligations
+   \item Required audit trails for all data access
+   \item Geographic controls to prevent unlawful data transfers
+   \end{itemize}
+
+\item \textbf{Survival of Key Provisions}
+   \begin{itemize}
+   \item Explicitly stated that External Researcher Access and Post-Project Data Use provisions survive termination
+   \item Confirmed perpetual nature of authorizations for Levels 2-3 data
+   \item Clarified that original data ownership remains unchanged
+   \end{itemize}
+\end{enumerate}
+
+\end{document}
