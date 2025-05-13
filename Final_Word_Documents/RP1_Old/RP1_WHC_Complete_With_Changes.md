@@ -45,23 +45,24 @@ The Parties agree that the transfer of the Original Study Data will be done in a
 # DEFINITIONS
 
 <span style='color: blue'>
-1.21 "Azure Cloud Platform" means the Microsoft Azure cloud computing service that will serve as the HE²AT Center Primary Repository.
+<span style='color: blue'>
+"Amendment Effective Date" shall mean the date on which this Amendment becomes effective and binding upon the Parties and shall be the date of signature of the last Party to sign this Amendment. For the avoidance of doubt, the Amendment Effective Date shall be the same as the effective date of this Agreement unless otherwise specified.
 
-1.22 "Cloud Migration" means the process of transferring the Original Study Data and any derived data sets from the existing on-premises infrastructure to the Azure Cloud Platform.
-
-1.23 "Data Access Committee or DAC" means the committee established by the HE²AT Center to review and approve data access requests from external researchers according to established criteria and protocols, which shall continue to function after the conclusion of the HE²AT Center Project.
-
-1.24 "Data Access Levels" means the tiered access system implemented by the HE²AT Center consisting of:
-• Level 0: Original Study Data - Raw, unprocessed data with restricted access to Core Data Team only
-• Level 1: Consortium Shared Data - Processed data shared only among HE²AT Center Consortium partners
-• Level 2: De-identified Data - Retained by HE²AT Center for approved external researcher access
-• Level 3: Inferential Data - Aggregated and anonymized data available for open access
-
-1.25 "External Researcher" means any qualified researcher who is not a member of the HE²AT Center Consortium but who has been approved by the Data Access Committee to access Level 2 data for specific research purposes.
-
-1.26 "Post-Project Data Use" means the continued storage, access, and use of the data after the conclusion of the HE²AT Center Project in accordance with this Amendment.
-
-1.27 "Successor Governance Entity" means any entity or institution that assumes responsibility for the governance, maintenance, and oversight of the Post-Project Data Repository after the conclusion of the HE²AT Center Project.
+"Azure Cloud Platform" means the Microsoft Azure cloud computing service that will serve as the HE²AT Center Primary Repository.
+"Cloud Migration" means the process of transferring the Original Study Data and any derived data sets from the existing on-premises infrastructure to the Azure Cloud Platform.
+"Data Access Committee or DAC" means the committee established by the HE²AT Center to review and approve data access requests from external researchers according to established criteria and protocols, which shall continue to function after the conclusion of the HE²AT Center Project.
+"Data Access Levels" means the tiered access system implemented by the HE²AT Center consisting of:
+- Level 0: Original Study Data - Raw, unprocessed data with restricted access to Core Data Team only
+- Level 1: Consortium Shared Data - Processed data shared only among HE²AT Center Consortium partners
+- Level 2: De-identified Data - Retained by HE²AT Center for approved external researcher access
+- Level 3: Inferential Data - Aggregated and anonymized data available for open access
+"Extended Research Use" means the use of data derived from the Original Study Data by External Researchers for scientific research purposes that may extend beyond but remain consistent with the original aims of the HE²AT Center Project.
+"External Researcher" means any qualified researcher who is not a member of the HE²AT Center Consortium but who has been approved by the Data Access Committee to access Level 2 data for specific research purposes.
+"Geo-Distributed Storage Architecture" means the cloud architecture that enables data storage in specific geographic regions in compliance with applicable data protection laws.
+"Post-Project Data Repository" means the secure data repository that will maintain and govern access to the data after the conclusion of the HE²AT Center Project.
+"Post-Project Data Use" means the continued storage, access, and use of the data after the conclusion of the HE²AT Center Project in accordance with this Amendment.
+"Successor Governance Entity" means any entity or institution that assumes responsibility for the governance, maintenance, and oversight of the Post-Project Data Repository after the conclusion of the HE²AT Center Project.
+</span>
 </span>
 
 In this Agreement, unless the context otherwise indicates, the following words will have the following meanings:
@@ -112,7 +113,7 @@ In this Agreement, unless the context otherwise indicates, the following words w
 
 # 2.	TRANSFER AND USE OF DATA
 
-2.1	This Agreement shall commence on the Commencement Date and ~~<span style='color: red'>shall terminate on completion of the HE2AT Project</span>~~ <span style='color: blue'>shall remain in effect in perpetuity with respect to the Post-Project Data Use provisions set forth in Section 2.12 of this Amendment, unless terminated earlier in accordance with the provisions of this Agreement. The Data Provider specifically acknowledges and agrees that the Post-Project Data Use provisions shall survive the termination of the HE²AT Center Project.</span>
+2.1	This Agreement shall commence on the Commencement Date and ~~<span style='color: red'>shall terminate on completion of the HE2AT Project</span>~~ <span style='color: blue'>shall remain in effect in perpetuity with respect to the Post-Project Data Use provisions set forth in Section 2.21 of this Amendment, unless terminated earlier in accordance with the provisions of this Agreement. The Data Provider specifically acknowledges and agrees that the Post-Project Data Use provisions shall survive the termination of the HE²AT Center Project.</span>
 
 2.2	Either Party may terminate this Agreement prior to the completion of the HE2AT Project by providing 30 (thirty) calendar days’ prior written notice to the other Party. On early termination of this Agreement, the Data Recipient shall, where possible, immediately discontinue use of the Original Study Data and upon the Data Provider’s instructions, either return all copies of same to the Data Provider, destroy all copies of the Original Study Data, or deal with the Original Study Data in any other manner requested by the Data Provider. Data Provider acknowledges that the ability to retrieve or delete Original Study Data already incorporated into the RP1 Study Data may be limited due to (1) this being impractical or impossible, (2) the need to maintain the integrity of the RP1 Study Data or (3) legal, operational, or regulatory requirements in accordance with applicable law. Where deletion is not possible, the Data Recipient shall, where practicable, anonymize or pseudonymize the Data to minimize any potential risks associated with its retention. The Data Recipient shall inform the Data Provider of any such measures taken.
 
